@@ -11,6 +11,7 @@ export default [
         interop: false,
         esModule: false,
         preferConst: true,
+        strict: true,
       },
       { file: pkg.module, format: 'es' },
     ],
