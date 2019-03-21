@@ -1,6 +1,6 @@
 # iso-lib-starter
 
-[![Build Status](https://travis-ci.org/lykmapipo/iso-lib-starter.svg?branch=develop)](https://travis-ci.org/lykmapipo/iso-lib-starter)
+[![Build Status](https://travis-ci.org/lykmapipo/iso-lib-starter.svg?branch=master)](https://travis-ci.org/lykmapipo/iso-lib-starter)
 [![Dependencies Status](https://david-dm.org/lykmapipo/iso-lib-starter.svg?style=flat-square)](https://david-dm.org/lykmapipo/iso-lib-starter)
 
 Starter for creating reusable, modern, isomorphic javascript libraries using rollup.
