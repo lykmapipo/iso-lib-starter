@@ -7,8 +7,12 @@ Starter for creating reusable, modern, isomorphic javascript libraries using rol
 
 ## Usage
 - To get started, simply clone this repo:
+```sh
+$ git clone https://github.com/lykmapipo/iso-lib-starter.git
 ```
-git clone https://github.com/lykmapipo/iso-lib-starter.git
+- Remove `.git` directory
+```sh
+$ rm -rf .git
 ```
 - Rename the new repo to the name of your library, and go through the `package.json` to fill out your own details as well.
 - Add usage and installation documentation
