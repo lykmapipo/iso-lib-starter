@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "scripts": {
-    "clean": "rimraf lib dist es umd",
+    "clean": "rimraf lib dist es umd logs",
     "prebuild": "npm test && npm run clean",
     "build": "rollup -c",
     "lint": "eslint --fix --ext .js src/ test/ rollup.config.js",
