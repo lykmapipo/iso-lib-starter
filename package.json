@@ -87,6 +87,10 @@
   "dependencies": {
     "lodash": ">=4.17.14"
   },
+  "engines": {
+    "node": ">=8.11.1",
+    "npm": ">=5.6.0"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
