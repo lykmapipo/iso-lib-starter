@@ -3,7 +3,8 @@
 [![Build Status](https://travis-ci.org/lykmapipo/iso-lib-starter.svg?branch=master)](https://travis-ci.org/lykmapipo/iso-lib-starter)
 [![Dependencies Status](https://david-dm.org/lykmapipo/iso-lib-starter.svg)](https://david-dm.org/lykmapipo/iso-lib-starter)
 [![Coverage Status](https://coveralls.io/repos/github/lykmapipo/iso-lib-starter/badge.svg?branch=master)](https://coveralls.io/github/lykmapipo/iso-lib-starter?branch=master)
-[![GitHub License](https://img.shields.io/github/license/lykmapipo/iso-lib-starter)](https://github.com/lykmapipo/iso-lib-starter/blob/master/LICENSE)
+[![GitHub License](https://img.shields.io/github/license/lykmapipo/iso-lib-starter)](https://github.com/lykmapipo/iso-lib-starter/blob/master/LICENSE) 
+
 [![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Code Style](https://badgen.net/badge/code%20style/airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript)
