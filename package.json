@@ -48,7 +48,8 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lykmapipo/iso-lib-starter/issues"
+    "url": "https://github.com/lykmapipo/iso-lib-starter/issues",
+    "email": "lallyelias87@gmail.com"
   },
   "homepage": "https://github.com/lykmapipo/iso-lib-starter#readme",
   "devDependencies": {
