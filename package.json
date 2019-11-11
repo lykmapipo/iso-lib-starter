@@ -78,6 +78,7 @@
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",
     "lodash.template": "^4.5.0",
+    "mime": "^2.4.4",
     "mocha": "^6.2.2",
     "npm-check-updates": "^3.2.1",
     "nyc": "^14.1.1",
