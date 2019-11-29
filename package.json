@@ -89,8 +89,6 @@
   },
   "peerDependencies": {},
   "dependencies": {
-    "add": "^2.0.6",
-    "git": "^0.1.5",
     "lodash": ">=4.17.15"
   },
   "engines": {
