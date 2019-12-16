@@ -72,7 +72,7 @@
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-jsdoc": "^18.4.3",
     "eslint-plugin-mocha": "^6.2.2",
-    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-prettier": "^3.1.2",
     "generate-changelog": "^1.8.0",
     "handlebars": "^4.5.3",
     "husky": "^3.1.0",
@@ -84,7 +84,7 @@
     "nyc": "^14.1.1",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
-    "rollup": "^1.27.9",
+    "rollup": "^1.27.13",
     "shelljs": "^0.8.3"
   },
   "peerDependencies": {},
