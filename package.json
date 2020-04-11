@@ -108,10 +108,10 @@
   },
   "lint-staged": {
     "*.js": [
-      "eslint --fix",
+      "eslint --fix"
     ],
     "*.{md,html}": [
-      "prettier --write",
+      "prettier --write"
     ]
   },
   "husky": {
