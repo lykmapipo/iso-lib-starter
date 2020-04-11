@@ -109,11 +109,9 @@
   "lint-staged": {
     "*.js": [
       "eslint --fix",
-      "git add"
     ],
     "*.{md,html}": [
       "prettier --write",
-      "git add"
     ]
   },
   "husky": {
