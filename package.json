@@ -9,6 +9,7 @@
     "prebuild": "npm test && npm run clean",
     "build": "rollup -c",
     "lint": "eslint --fix --ext .js src/ test/ rollup.config.js",
+    "prettier": "prettier --write '**/*.{md,json,yml,html}'",
     "pretest": "npm run lint",
     "test": "NODE_ENV=test nyc --reporter=html --reporter=text mocha --exit --timeout=8000 --require @babel/register test/**/*.spec.js",
     "test:unit": "NODE_ENV=test npm run pretest && NODE_ENV=test mocha --exit --timeout=8000 --require @babel/register test/unit/**/*.spec.js",
@@ -109,9 +110,9 @@
   },
   "lint-staged": {
     "*.js": [
-      "lint"
+      "eslint --fix"
     ],
-    "*.{md,html}": [
+    "*.{md,json,yml,html}": [
       "prettier --write"
     ]
   },
