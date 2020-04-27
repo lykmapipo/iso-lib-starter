@@ -62,10 +62,10 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@commitlint/travis-cli": "^8.3.5",
-    "@lykmapipo/test-helpers": "^0.5.15",
+    "@lykmapipo/test-helpers": "^0.5.17",
     "chai": "^4.2.0",
     "commitizen": "^4.0.4",
-    "coveralls": "^3.0.13",
+    "coveralls": "^3.1.0",
     "cz-conventional-changelog": "^3.1.0",
     "doxdox": "^3.0.0",
     "eslint": "^6.8.0",
@@ -82,13 +82,13 @@
     "lodash.template": "^4.5.0",
     "mime": "^2.4.4",
     "minimist": "^1.2.5",
-    "mocha": "^7.1.1",
+    "mocha": "^7.1.2",
     "npm-check-updates": "^4.1.2",
     "nyc": "^15.0.1",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.2",
     "rollup": "^2.7.2",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.4"
   },
   "peerDependencies": {},
   "dependencies": {
