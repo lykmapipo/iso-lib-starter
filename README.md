@@ -17,13 +17,73 @@ Starter for creating reusable, modern, isomorphic javascript libraries using rol
 
 ## Usage
 
+### Create repository
+
 - Generate your new repository by **<a href="https://github.com/lykmapipo/iso-lib-starter/generate" target="_blank">use this template</a>**
 
 - Clone your new repository
 
-- Go through your repository `package.json` to fill out common required details
+### README(optional)
 
-- Go through `CODE_OF_CONDUCT`, `CONTRIBUTING`, `SECURITY`, `LICENSE` and `README` to edit and fill out require details.
+- Copy `README.example.md` to `README.md`
+
+```sh
+$ cp README.example.md README.md
+```
+
+- Rename `<contributor>` to your `github profile name`
+
+- Rename `<repository>` to your actual `repository name`
+
+- Rename `<description>` to actual your repository description
+
+- Go through `CODE_OF_CONDUCT`, `CONTRIBUTING`, `SECURITY` and `LICENSE` to edit and fill out require details.
+
+### package.json(optional)
+
+- Copy `package.example.json` to `package.json`
+
+```sh
+$ cp package.example.json package.json
+```
+
+- Rename `<contributor>` to your `github profile name`
+
+- Rename `<repository>` to your actual `repository name`
+
+- Rename `<description>` to your actual `repository description`
+
+- Rename `<email>` to your actual `email`
+
+## Develop
+
+- Install all development dependencies
+
+```sh
+$ npm install
+```
+
+- Develop your repository features
+
+- Run test
+
+```sh
+$ npm test
+```
+
+- Build
+
+```sh
+$ npm run build
+```
+
+- Create a release
+
+- Publish
+
+```sh
+$ git push --all && git push --tags && npm publish --access=public
+```
 
 ## How to contribute
 

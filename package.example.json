@@ -1,0 +1,111 @@
+{
+  "name": "@<contributor>/<repository>",
+  "version": "0.1.0",
+  "description": "<description>",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "clean": "rimraf lib dist es umd logs",
+    "prebuild": "npm test && npm run clean",
+    "build": "rollup -c",
+    "lint": "eslint --fix --ext .js src/ test/ rollup.config.js",
+    "prettier": "prettier --write '**/*.{md,json,yml,html}'",
+    "pretest": "npm run lint",
+    "test": "NODE_ENV=test nyc --reporter=html --reporter=text mocha --exit --timeout=8000 --require @babel/register test/**/*.spec.js",
+    "test:unit": "NODE_ENV=test npm run pretest && NODE_ENV=test mocha --exit --timeout=8000 --require @babel/register test/unit/**/*.spec.js",
+    "test:integration": "NODE_ENV=test npm run pretest && NODE_ENV=test mocha --exit --timeout=8000 --require @babel/register test/integration/**/*.spec.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "docs": "doxdox 'lib/**/*.js' -p package.json -l markdown -o DOCUMENTATION.md",
+    "cmt": "git add -A && git-cz",
+    "changelog": "changelog",
+    "chore:deps": "ncu -u && npm install --save",
+    "lint:config": "eslint --print-config rollup.config.js"
+  },
+  "keywords": ["<contributor>", "<repository>"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<contributor>/<repository>.git"
+  },
+  "author": {
+    "name": "<contributor>",
+    "email": "<email>",
+    "url": "https://github.com/<contributor>"
+  },
+  "contributors": [
+    {
+      "name": "<contributor>",
+      "email": "<email>",
+      "url": "https://github.com/<contributor>"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/<contributor>/<repository>/issues",
+    "email": "<email>"
+  },
+  "homepage": "https://github.com/<contributor>/<repository>#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/register": "^7.10.5",
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/travis-cli": "^9.1.1",
+    "@lykmapipo/test-helpers": "^0.5.30",
+    "chai": "^4.2.0",
+    "commitizen": "^4.1.2",
+    "coveralls": "^3.1.0",
+    "cz-conventional-changelog": "^3.2.0",
+    "dot-prop": "^5.2.0",
+    "doxdox": "^3.0.0",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsdoc": "^30.2.1",
+    "eslint-plugin-mocha": "^8.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "generate-changelog": "^1.8.0",
+    "handlebars": "^4.7.6",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "lodash.template": "^4.5.0",
+    "mime": "^2.4.6",
+    "minimist": "^1.2.5",
+    "mocha": "^8.1.1",
+    "npm-check-updates": "^7.0.4",
+    "nyc": "^15.1.0",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.23.1",
+    "shelljs": "^0.8.4"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "lodash": ">=4.17.19"
+  },
+  "engines": {
+    "node": ">=14.5.0",
+    "npm": ">=6.14.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "commitlint": {
+    "extends": ["@commitlint/config-conventional"]
+  },
+  "lint-staged": {
+    "*.js": ["eslint --fix"],
+    "*.{md,json,yml,html}": ["prettier --write"]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
