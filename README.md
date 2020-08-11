@@ -12,6 +12,11 @@
 
 Starter for creating reusable, modern, isomorphic javascript libraries using rollup.
 
+## Requirements
+
+- [NodeJS v14.5+](https://nodejs.org)
+- [Npm v6.14+](https://www.npmjs.com/)
+
 ## Usage
 
 - To get started, simply clone this repo:
