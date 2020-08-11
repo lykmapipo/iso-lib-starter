@@ -50,6 +50,12 @@ Starter for creating reusable, modern, isomorphic javascript libraries using rol
 
   # SECURITY.md
   sed "s/<contributor>/$CONTRIBUTOR/g;s/<repository>/$REPOSITORY/g" SECURITY.example.md > SECURITY.md
+
+  # Cleanup
+  rm package.example.json README.example.md CODE_OF_CONDUCT.example.md CONTRIBUTING.example.md LICENSE.example SECURITY.example.md
+
+  # Install
+  npm install --save
 )
 ```
 
