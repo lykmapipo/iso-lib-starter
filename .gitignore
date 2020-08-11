@@ -17,6 +17,7 @@ pids
 
 # Temporary
 .cache
+.module-cache
 .tmp
 .grunt
 .npm
@@ -40,7 +41,10 @@ coverage
 .idea
 *.iml
 *.ipr
+.vscode
 .vscode-test
+*.sublime-project
+*.sublime-workspace
 
 # Config
 .env
