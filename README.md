@@ -2,13 +2,11 @@
 
 [![Build Status](https://travis-ci.org/lykmapipo/iso-lib-starter.svg?branch=master)](https://travis-ci.org/lykmapipo/iso-lib-starter)
 [![Dependencies Status](https://david-dm.org/lykmapipo/iso-lib-starter.svg)](https://david-dm.org/lykmapipo/iso-lib-starter)
-[![Coverage Status](https://coveralls.io/repos/github/lykmapipo/iso-lib-starter/badge.svg?branch=master)](https://coveralls.io/github/lykmapipo/iso-lib-starter?branch=master)
 [![GitHub License](https://img.shields.io/github/license/lykmapipo/iso-lib-starter)](https://github.com/lykmapipo/iso-lib-starter/blob/master/LICENSE)
 
 [![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Code Style](https://badgen.net/badge/code%20style/airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript)
-[![npm version](https://img.shields.io/npm/v/@lykmapipo/iso-lib-starter)](https://www.npmjs.com/package/@lykmapipo/iso-lib-starter)
 
 Starter for creating reusable, modern, isomorphic javascript libraries using rollup.
 
@@ -19,20 +17,13 @@ Starter for creating reusable, modern, isomorphic javascript libraries using rol
 
 ## Usage
 
-- To get started, simply clone this repo:
+- Generate your new repository by **<a href="https://github.com/lykmapipo/iso-lib-starter/generate" target="_blank">use this template</a>**
 
-```sh
-$ git clone https://github.com/lykmapipo/iso-lib-starter.git
-```
+- Clone your new repository
 
-- Remove `.git` directory
+- Go through your repository `package.json` to fill out common required details
 
-```sh
-$ rm -rf .git
-```
-
-- Rename the new repo to the name of your library, and go through the `package.json` to fill out your own details as well.
-- Add usage and installation documentation
+- Go through `CODE_OF_CONDUCT`, `CONTRIBUTING`, `SECURITY`, `LICENSE` and `README` to edit and fill out require details.
 
 ## How to contribute
 
