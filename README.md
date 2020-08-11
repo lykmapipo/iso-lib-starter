@@ -15,15 +15,29 @@ Starter for creating reusable, modern, isomorphic javascript libraries using rol
 - [NodeJS v14.5+](https://nodejs.org)
 - [Npm v6.14+](https://www.npmjs.com/)
 
-## Usage
-
-### Create repository
+## Create repository
 
 - Generate your new repository by **<a href="https://github.com/lykmapipo/iso-lib-starter/generate" target="_blank">use this template</a>**
 
 - Clone your new repository
 
-### README(optional)
+## package.json(optional)
+
+- Copy `package.example.json` to `package.json`
+
+```sh
+$ cp package.example.json package.json
+```
+
+- Rename `<contributor>` to your `github profile name`
+
+- Rename `<repository>` to your actual `repository name`
+
+- Rename `<description>` to your actual `repository description`
+
+- Rename `<email>` to your actual `email`
+
+## README(optional)
 
 - Copy `README.example.md` to `README.md`
 
@@ -37,21 +51,37 @@ $ cp README.example.md README.md
 
 - Rename `<description>` to actual your repository description
 
-- Go through `CODE_OF_CONDUCT`, `CONTRIBUTING`, `SECURITY` and `LICENSE` to edit and fill out require details.
+## Community files(optional)
 
-### package.json(optional)
-
-- Copy `package.example.json` to `package.json`
+- Copy `CODE_OF_CONDUCT.example.md` to `CODE_OF_CONDUCT.md`
 
 ```sh
-$ cp package.example.json package.json
+$ cp CODE_OF_CONDUCT.example.md CODE_OF_CONDUCT.md
 ```
+
+- Copy `CONTRIBUTING.example.md` to `CONTRIBUTING.md`
+
+```sh
+$ cp CONTRIBUTING.example.md CONTRIBUTING.md
+```
+
+- Copy `SECURITY.example.md` to `SECURITY.md`
+
+```sh
+$ cp SECURITY.example.md SECURITY.md
+```
+
+- Copy `LICENSE.example` to `LICENSE`
+
+```sh
+$ cp LICENSE.example LICENSE
+```
+
+- For each community file do:
 
 - Rename `<contributor>` to your `github profile name`
 
 - Rename `<repository>` to your actual `repository name`
-
-- Rename `<description>` to your actual `repository description`
 
 - Rename `<email>` to your actual `email`
 
