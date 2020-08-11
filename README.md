@@ -29,20 +29,6 @@ $ rm -rf .git
 - Rename the new repo to the name of your library, and go through the `package.json` to fill out your own details as well.
 - Add usage and installation documentation
 
-## Testing
-
-If you want to test this library,
-
-- First clone this repo
-- Install all dependencies
-  ```sh
-  npm install
-  ```
-- Run test
-  ```sh
-  npm test
-  ```
-
 ## How to contribute
 
 It will be nice, if you open an issue first so that we can know what is going on, then, fork this repo and push in your ideas. Do not forget to add a bit of test(s) of what value you adding.
