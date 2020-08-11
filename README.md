@@ -15,75 +15,43 @@ Starter for creating reusable, modern, isomorphic javascript libraries using rol
 - [NodeJS v14.5+](https://nodejs.org)
 - [Npm v6.14+](https://www.npmjs.com/)
 
-## Create repository
+## Usage
 
 - Generate your new repository by **<a href="https://github.com/lykmapipo/iso-lib-starter/generate" target="_blank">use this template</a>**
 
-- Clone your new repository
+- Open terminal, `clone` and `cd` into your new repository
 
-## package.json(optional)
-
-- Copy `package.example.json` to `package.json`
+- While in the terminal, copy, paste and run below script to setup common files
 
 ```sh
-$ cp package.example.json package.json
+(
+  # Variables
+  REPOSITORY=${PWD##*/}
+  CONTRIBUTOR=$(git config user.name)
+  EMAIL=$(git config user.email)
+  NODE_RELEASE=$(node -v)
+  NODE_VERSION=${NODE_RELEASE#v}
+  NPM_VERSION=$(npm -v)
+
+  # package.json
+  sed "s/<contributor>/$CONTRIBUTOR/g;s/<repository>/$REPOSITORY/g;s/<email>/$EMAIL/g;s/<node_version>/$NODE_VERSION/g;s/<npm_version>/$NPM_VERSION/g" package.example.json > package.json
+
+  # README.md
+  sed "s/<contributor>/$CONTRIBUTOR/g;s/<repository>/$REPOSITORY/g" README.example.md > README.md
+
+  # CODE_OF_CONDUCT.md
+  sed "s/<email>/$EMAIL/g" CODE_OF_CONDUCT.example.md > CODE_OF_CONDUCT.md
+
+  # CONTRIBUTING.md
+  sed "s/<contributor>/$CONTRIBUTOR/g;s/<repository>/$REPOSITORY/g" CONTRIBUTING.example.md > CONTRIBUTING.md
+
+  # LICENSE
+  sed "s/<contributor>/$CONTRIBUTOR/g" LICENSE.example > LICENSE
+
+  # SECURITY.md
+  sed "s/<contributor>/$CONTRIBUTOR/g;s/<repository>/$REPOSITORY/g" SECURITY.example.md > SECURITY.md
+)
 ```
-
-- Rename `<contributor>` to your `github profile name`
-
-- Rename `<repository>` to your actual `repository name`
-
-- Rename `<description>` to your actual `repository description`
-
-- Rename `<email>` to your actual `email`
-
-## README(optional)
-
-- Copy `README.example.md` to `README.md`
-
-```sh
-$ cp README.example.md README.md
-```
-
-- Rename `<contributor>` to your `github profile name`
-
-- Rename `<repository>` to your actual `repository name`
-
-- Rename `<description>` to actual your repository description
-
-## Community files(optional)
-
-- Copy `CODE_OF_CONDUCT.example.md` to `CODE_OF_CONDUCT.md`
-
-```sh
-$ cp CODE_OF_CONDUCT.example.md CODE_OF_CONDUCT.md
-```
-
-- Copy `CONTRIBUTING.example.md` to `CONTRIBUTING.md`
-
-```sh
-$ cp CONTRIBUTING.example.md CONTRIBUTING.md
-```
-
-- Copy `SECURITY.example.md` to `SECURITY.md`
-
-```sh
-$ cp SECURITY.example.md SECURITY.md
-```
-
-- Copy `LICENSE.example` to `LICENSE`
-
-```sh
-$ cp LICENSE.example LICENSE
-```
-
-- For each community file do:
-
-- Rename `<contributor>` to your `github profile name`
-
-- Rename `<repository>` to your actual `repository name`
-
-- Rename `<email>` to your actual `email`
 
 ## Develop
 
