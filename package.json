@@ -19,7 +19,8 @@
     "cmt": "git add -A && git-cz",
     "changelog": "changelog",
     "chore:deps": "ncu -u && npm install --save",
-    "lint:config": "eslint --print-config rollup.config.js"
+    "lint:config": "eslint --print-config rollup.config.js",
+    "examples": "NODE_ENV=development BASE_PATH=./examples babel-node ./examples/index.js"
   },
   "keywords": [
     "lykmapipo",
