@@ -6,6 +6,7 @@
   "module": "es/index.js",
   "scripts": {
     "clean": "rimraf lib dist es umd logs",
+    "prepare": "husky install",
     "prebuild": "npm test && npm run clean",
     "build": "rollup -c",
     "lint": "eslint --fix --ext .js src/ test/ examples/ rollup.config.js",
