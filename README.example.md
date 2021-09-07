@@ -1,6 +1,6 @@
 # <repository>
 
-[![Build Status](https://travis-ci.com/<contributor>/<repository>.svg?branch=master)](https://travis-ci.com/<contributor>/<repository>)
+[![Build Status](https://app.travis-ci.com/<contributor>/<repository>.svg?branch=master)](https://app.travis-ci.com/<contributor>/<repository>)
 [![Dependencies Status](https://david-dm.org/<contributor>/<repository>.svg)](https://david-dm.org/<contributor>/<repository>)
 [![Coverage Status](https://coveralls.io/repos/github/<contributor>/<repository>/badge.svg?branch=master)](https://coveralls.io/github/<contributor>/<repository>?branch=master)
 [![GitHub License](https://img.shields.io/github/license/<contributor>/<repository>)](https://github.com/<contributor>/<repository>/blob/develop/LICENSE)
