@@ -2,6 +2,7 @@
 
 [![Build Status](https://app.travis-ci.com/lykmapipo/iso-lib-starter.svg?branch=master)](https://app.travis-ci.com/lykmapipo/iso-lib-starter)
 [![Dependencies Status](https://david-dm.org/lykmapipo/iso-lib-starter.svg)](https://david-dm.org/lykmapipo/iso-lib-starter)
+[![Coverage Status](https://coveralls.io/repos/github/lykmapipo/iso-lib-starter/badge.svg?branch=master)](https://coveralls.io/github/lykmapipo/iso-lib-starter?branch=master)
 [![GitHub License](https://img.shields.io/github/license/lykmapipo/iso-lib-starter)](https://github.com/lykmapipo/iso-lib-starter/blob/master/LICENSE)
 
 [![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
