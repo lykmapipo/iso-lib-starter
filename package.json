@@ -71,7 +71,7 @@
     "commitizen": "^4.2.5",
     "coveralls": "^3.1.1",
     "cz-conventional-changelog": "^3.3.0",
-    "doxdox": "^3.0.0",
+    "doxdox": "^4.0.0-preview.20",
     "eslint": "^8.25.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
